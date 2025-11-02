@@ -1,0 +1,61 @@
+# --- Python / Backend ---
+
+# Entornos virtuales
+venv/
+env/
+*.venv
+
+# Archivos de secretos (¡MUY IMPORTANTE!)
+.env
+*.env
+
+# Bytecode y caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Caches de tests y coverage
+.pytest_cache/
+.coverage
+
+# Paquetes de distribución
+build/
+dist/
+*.egg-info/
+sdist/
+wheel/
+
+# --- Node.js / Frontend ---
+
+# Dependencias (¡MUY IMPORTANTE!)
+node_modules/
+
+# Archivos de secretos (¡MUY IMPORTANTE!)
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build de Next.js
+.next/
+
+# Cache de Vercel
+.vercel/
+
+# --- General / OS / Editor ---
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/

@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pinecone-client
+sentence-transformers
+pandas
+python-dotenv

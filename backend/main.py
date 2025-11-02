@@ -12,7 +12,7 @@ load_dotenv(find_dotenv(), override=True)
 
 print("Cargando modelo de embeddings...")
 # Cargar el modelo (toma tiempo, por eso se hace al inicio)
-model = SentenceTransformer('multi-qa-distilbert-cos-v1')
+model = SentenceTransformer('all-MiniLM-L6-v2')
 print("Modelo cargado.")
 
 print("Conectando a Pinecone...")

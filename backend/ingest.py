@@ -25,7 +25,7 @@ index_name = "my-index"
 
 # ¡¡OJO!! El modelo 'multi-qa-distilbert-cos-v1' tiene 768 dimensiones, no 384.
 # (El modelo 'all-MiniLM-L6-v2' tiene 384)
-dimension = 768 
+dimension = 384
 metric = "cosine"
 
 if index_name in [index.name for index in pc.list_indexes()]:
@@ -51,7 +51,7 @@ print("Índice listo.")
 
 # --- Creación de Embeddings ---
 print("Cargando modelo de embeddings (esto puede tardar)...")
-model = SentenceTransformer('multi-qa-distilbert-cos-v1')
+model = SentenceTransformer('all-MiniLM-L6-v2')
 print("Modelo cargado.")
 
 def create_embeddings(row):
